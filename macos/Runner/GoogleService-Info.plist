@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>252812712934-b5olvmesm626r113ldbd4grmndtlheb8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.252812712934-b5olvmesm626r113ldbd4grmndtlheb8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBA1xFJigWRxD-vDuYE0hrZ29h61gtHSes</string>
+	<key>GCM_SENDER_ID</key>
+	<string>252812712934</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.petoApp.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>petto-app-b73df</string>
+	<key>STORAGE_BUCKET</key>
+	<string>petto-app-b73df.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:252812712934:ios:8397b0ec10ca5f752a9427</string>
+</dict>
+</plist>

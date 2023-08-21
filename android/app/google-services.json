@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "252812712934",
+    "project_id": "petto-app-b73df",
+    "storage_bucket": "petto-app-b73df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252812712934:android:c91d0e9f5edd50202a9427",
+        "android_client_info": {
+          "package_name": "com.example.peto_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252812712934-h821fgq9llfslcqfadm2vti7m09smjsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFBhT-EBrRtqkdu466PnLlo6evOfW2cn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252812712934-h821fgq9llfslcqfadm2vti7m09smjsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
