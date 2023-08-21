@@ -16,9 +16,11 @@ categories_comp({required String image,required String name, required var color,
                                 context, MaterialPageRoute(builder: (cpntext)=> categoriesepage));
                                 },
    child: Container(
+    decoration: BoxDecoration(color:Color(backGroundColor),
+    borderRadius: BorderRadius.circular(5)),
+    
                           width: 142,
                           height: 76,
-                          color:Color(backGroundColor),
                           child: Row(
                             children: [
                               Image.asset(image),

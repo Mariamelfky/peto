@@ -124,13 +124,11 @@ class _petoHomeState extends State<petoHome> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      SizedBox(width: 20,),
+                      SizedBox(width: 5,),
                       categories_comp(image: "assets/dogo.png", name: "Dog", color:0xFF3E423F,context: context,categoriesepage:basket_page(),backGroundColor: 0xFFFEF1E4 ),
-                      SizedBox(width: 20,),
                       categories_comp(image: "assets/catoo.png", name: "CAT", color: (0xFF3E423F),context: context,categoriesepage:basket_page(),backGroundColor: 0xB2B7DFF5 ),
-                      SizedBox(width: 20,),
                       categories_comp(image: "assets/birdo.png", name: "BIRD", color:0xFF3E423F,context: context,categoriesepage:basket_page(),backGroundColor: 0xB2D3B0E0 ),
-                      SizedBox(width: 20,),
+                      SizedBox(width: 5,),
                       Column(
                         children: [
                           TextButton(onPressed: null, child: Icon(Icons.navigate_next),),
@@ -157,9 +155,9 @@ class _petoHomeState extends State<petoHome> {
                     children: [
                       SizedBox(width: 20,),
                       product_compo(Image1: "assets/kitten.png", Icon: "assets/shop.png", productName: "ROYAL CANIN", producPrice: "\$22,99",context: context,page1: Details_page(),page2: basket_page()),
-                      SizedBox(width: 40,),
+                      SizedBox(width: 20,),
                        product_compo(Image1: "assets/kitten.png", Icon: "assets/shop.png", productName: "ROYAL CANIN", producPrice: "\$22,99",context: context,page1: Details_page(),page2: basket_page()),
-                      SizedBox(width: 40 ,),
+                      SizedBox(width: 20 ,),
                        product_compo(Image1: "assets/kitten.png", Icon: "assets/shop.png", productName: "ROYAL CANIN", producPrice: "\$22,99",context: context,page1: Details_page(),page2: basket_page()),
                       Column(
                         children: [
