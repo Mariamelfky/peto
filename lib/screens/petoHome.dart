@@ -14,15 +14,20 @@ class petoHome extends StatefulWidget {
 }
 
 class _petoHomeState extends State<petoHome> {
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
+      body: 
+      
+      
+      SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+            
             Center(
               child: Container(
                 child:
@@ -204,7 +209,14 @@ class _petoHomeState extends State<petoHome> {
      
             
         ]),
+        
       ),
+      
+      
+      
+      
+     
+    
       
       
     );

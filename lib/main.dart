@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:firebase_core/firebase_core.dart';
+import 'package:peto_app/screens/home.dart';
 import 'package:peto_app/screens/petoHome.dart';
 
 import 'firebase_options.dart';
@@ -28,7 +29,7 @@ class _petoMarketState extends State<petoMarket> {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const petoHome(),
+      home: home(),
     );
 
     
