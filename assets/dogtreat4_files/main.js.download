@@ -1,0 +1,31 @@
+/**
+ * This file is loaded by the Chewy Header component. We want to keep it very
+ * small, and it only does one thing: decides if the entire ChatUI should be
+ * loaded. We do that when:
+ * - The user has an active chat session (as determined by the existence of a
+ * chatId in localStorage))
+ * - The user is in the CwaV flow. Since the majority of our users start chat
+ * sessions, we don't want to wait on loading the rest of the Chat UI.
+ */
+
+(function () {
+	const chatId = window.localStorage.getItem('cwav-chat-ui-chatId');
+	const isCWAV = window.location.pathname.includes('connect-with-a-vet');
+	const isSandbox = window.location.pathname.includes('stark-chat-ui');
+
+	// see vite.config.ts for why "https://client-stark-prd.chewy.com/" is here.
+	const appSource = "https://client-stark-prd.chewy.com/" + 'app.js';
+	const cssSource = "https://client-stark-prd.chewy.com/" + 'style.css';
+
+	if (chatId || isCWAV || isSandbox) {
+		const script = document.createElement('script');
+		script.src = appSource;
+		script.type = 'text/javascript';
+		document.body.appendChild(script);
+
+		const styles = document.createElement('link');
+		styles.rel = 'stylesheet';
+		styles.href = cssSource;
+		document.head.appendChild(styles);
+	}
+})();
